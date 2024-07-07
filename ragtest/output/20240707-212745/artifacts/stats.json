@@ -1,5 +1,5 @@
 {
-    "total_runtime": 1.3357133865356445,
+    "total_runtime": 147.71550917625427,
     "num_documents": 1,
     "input_load_time": 0,
     "workflows": {
@@ -16,6 +16,15 @@
             "8_unzip": 0.017529726028442383,
             "9_copy": 0.01600790023803711,
             "10_filter": 0.08302783966064453
+        },
+        "create_base_extracted_entities": {
+            "overall": 145.26757740974426,
+            "0_entity_extract": 145.22640752792358,
+            "1_merge_graphs": 0.03116631507873535
+        },
+        "create_summarized_entities": {
+            "overall": 0.03520512580871582,
+            "0_summarize_descriptions": 0.02180171012878418
         }
     }
 }
